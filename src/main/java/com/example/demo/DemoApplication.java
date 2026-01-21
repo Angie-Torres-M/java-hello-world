@@ -15,5 +15,5 @@ public class DemoApplication {
   @GetMapping("/")
   public String home() {
     return "Hello from Cloud Run (Trigger)!";
-  }
+ }
 }
